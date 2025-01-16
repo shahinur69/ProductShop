@@ -11,7 +11,7 @@ import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
-import Order from './components/Ordder/Order';
+import Order from './components/Order/Order';
 const router = createBrowserRouter([
   {
     path: "/",

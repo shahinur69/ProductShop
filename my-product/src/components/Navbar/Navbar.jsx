@@ -1,6 +1,25 @@
 import { Link } from "react-router-dom";
 import logo from "../../images/foodlogo.avif";
+//import { getAuth, signOut } from "firebase/auth";
+//import { useState } from "react";
 const Navbar = () => {
+    /* const auth = getAuth();
+    const [user, setUser] = useState(auth.currentUser);
+    const [success, setSuccess] = useState('');
+    const [logoutError, setLogoutError] = useState('');
+    const handleLogOut = () => {
+        setSuccess('');
+        setLogoutError('');
+        signOut(auth)
+          .then(() =>{
+            setSuccess("Logged out successfully!");
+            setUser(null);
+        })
+        .catch((error) => {
+            console.error(error);
+            setLogoutError(error.message);
+        });
+    }; */
     const navLinks = <>
         <li><Link to = "/">Home</Link></li>
         <li><Link to = "/order">Order</Link></li>
@@ -40,8 +59,24 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Log Out</a>
+                <a href="https://www.othoba.com/food-grocery?srsltid=AfmBOopqrvZDS92n9RA9Fco3ApH1_12jD3EggA_zdnh2DE0H2pbxG5YA" 
+                    className="btn btn-warning">Explore!
+                </a>
+                {/* {user ? (
+                    <>
+                       <span>Welcome, {user.email}</span>
+                       <button onClick={handleLogOut}>Log Out</button>
+                    </>
+                ): ( 
+                    <Link to="/login" className="btn">Log In</Link>
+                )} */}
             </div>
+           {/*  {success && (
+                <p className="text-green-500 text-center mt-2">{success}</p>
+            )}
+             {logoutError && (
+                <p className="text-red-500 text-center mt-2">{logoutError}</p>
+            )} */}
         </div>
     );
 };
