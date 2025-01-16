@@ -60,7 +60,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 <a href="https://www.othoba.com/food-grocery?srsltid=AfmBOopqrvZDS92n9RA9Fco3ApH1_12jD3EggA_zdnh2DE0H2pbxG5YA" 
-                    className="btn btn-warning">Explore!
+                    className="btn btn-warning text-lg font-bold">Explore!
                 </a>
                 {/* {user ? (
                     <>

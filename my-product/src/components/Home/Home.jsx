@@ -19,7 +19,7 @@ const Home = () => {
                         <h2 className="card-title">Burger!</h2>
                         <p>If you choose it more , you van buy it without doubt.</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Home = () => {
                         <h2 className="card-title">Pastaa!</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Home = () => {
                         <h2 className="card-title">Best Cake</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ const Home = () => {
                         <h2 className="card-title">Salad</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Home = () => {
                         <h2 className="card-title">Best Tomato</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@ const Home = () => {
                         <h2 className="card-title">Grape</h2>
                         <p>If a dog chews shoes whose shoes does he choose?</p>
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary text-sm text-white bg-red-800 border-none">Buy Now</button>
+                            <button className="btn btn-primary text-sm lg:text-white bg-green-800 border-none">Buy Now</button>
                         </div>
                     </div>
                 </div>
